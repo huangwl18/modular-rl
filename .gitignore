@@ -1,0 +1,17 @@
+mrEnv
+**/__pycache__
+**pyc
+**npy
+**DS_Store
+**MUJOCO_LOG.TXT
+**/.ipynb_checkpoints
+src/baselines/
+src/gym/
+src/trained_models/
+src/SaveData/
+src/temp
+src/results
+src/runs
+src/pytorch_models
+src/temp.txt
+.idea
