@@ -85,7 +85,7 @@ python main.py --expID 006 --td --bu --custom_xml <PATH_TO_XML_FILE>
 ```Shell
 python main.py --expID 007 --td --bu --custom_xml <PATH_TO_XML_DIR>
   ```
-Note that the current implementation assumes all custom MuJoCo agents are 2D planar and contain only one ``body`` tag with name ``torso`` inside ``worldbody``.
+Note that the current implementation assumes all custom MuJoCo agents are 2D planar and contain only one ``body`` tag with name ``torso`` attached to ``worldbody``.
 
 ### Visualization
 - To visualize all ``walker`` environments with the both-way SMP model from experiment ``expID 001``:
