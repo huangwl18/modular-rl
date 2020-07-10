@@ -1,1 +1,329 @@
-hello
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- ======================================================================= -->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<style type="text/css">
+  body {
+    font-family: "Titillium Web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+    font-size:18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  h1 {
+    font-weight:300;
+    max-width: 100%;
+  }
+
+  div {
+    max-width: 95%;
+    margin:auto;
+    padding: 10px;
+  }
+
+  .table-like {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    padding: 20px;
+  }
+
+  video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  table {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+
+  img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.rounded {
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  a:link,a:visited
+  {
+    color: #1367a7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #208799;
+  }
+
+  td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+            15px 15px 0 0px #fff, /* The fourth layer */
+            15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+            20px 20px 0 0px #fff, /* The fifth layer */
+            20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+            25px 25px 0 0px #fff, /* The fifth layer */
+            25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+
+  .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+
+  .vert-cent {
+    position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  hr
+  {
+    border: 0;
+    height: 1px;
+    max-width: 1100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  #authors td {
+    padding-bottom:5px;
+    padding-top:30px;
+  }
+</style>
+<!-- ======================================================================= -->
+
+<!-- Start : Google Analytics Code -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64069893-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-64069893-4');
+</script> -->
+<!-- End : Google Analytics Code -->
+
+<script type="text/javascript" src="resources/hidebib.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+<head>
+<div max-width=100%>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" type="image/png" href="resources/seal_icon.png" />
+  <title>One Policy to Control Them All: Shared Modular Policies for Agent-Agnostic Control</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://huangwl18.github.io/modular-rl/" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <meta property="og:site_name" content="Planning to Explore" />
+  <meta property="og:type" content="video.other" />
+  <meta property="og:title" content="One Policy to Control Them All: Shared Modular Policies for Agent-Agnostic Control" />
+  <meta property="og:description" content="Huang, Mordatch, Pathak. One Policy to Control Them All: Shared Modular Policies for Agent-Agnostic Control. ICML 2020." />
+  <meta property="og:url" content="https://huangwl18.github.io/modular-rl/" />
+  <meta property="og:image" content="https://huangwl18.github.io/modular-rl/resources/teaser.png" />
+  <meta property="og:video" content="https://www.youtube.com/v/9YiZZ_8guq8" />
+
+  <meta property="article:publisher" content="https://github.com/huangwl18" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="One Policy to Control Them All: Shared Modular Policies for Agent-Agnostic Control" />
+  <meta name="twitter:description" content="Huang, Mordatch, Pathak. One Policy to Control Them All: Shared Modular Policies for Agent-Agnostic Control. ICML 2020." />
+  <meta name="twitter:url" content="https://huangwl18.github.io/modular-rl/" />
+  <meta name="twitter:image" content="https://huangwl18.github.io/modular-rl/resources/teaser.png" />
+  <!-- <meta name="twitter:label1" content="Written by" />
+  <meta name="twitter:data1" content="Deepak Pathak" /> -->
+  <!-- <meta name="twitter:label2" content="Filed under" />
+  <meta name="twitter:data2" content="" /> -->
+  <meta name="twitter:site" content="@pathak2206" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="900" />
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <meta name="twitter:card" content="player" />
+  <meta name="twitter:image" content="https://huangwl18.github.io/modular-rl/resources/teaser.png" />
+  <meta name="twitter:player" content="https://www.youtube.com/embed/9YiZZ_8guq8?rel=0&showinfo=0" />
+  <meta name="twitter:player:width" content="640" />
+  <meta name="twitter:player:height" content="360" />
+</head>
+
+<body>
+      <br>
+      <center><span style="font-size:44px;font-weight:bold;">One Policy to Control Them All:<br>Shared Modular Policies for Agent-Agnostic Control</span></center><br/>
+      <div class="table-like" style="justify-content:space-evenly;max-width:900px;margin:auto;">
+          <div><center><span style="font-size:24px"><a href="https://wenlong.page/" target="_blank">Wenlong Huang</a></span></center>
+          <center><span style="font-size:20px">UC Berkeley</span></center>
+          </div>
+
+          <div><center><span style="font-size:24px"><a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en" target="_blank">Igor Mordatch</a></span></center>
+          <center><span style="font-size:20px">Google</span></center>
+          </div>
+
+          <div><center><span style="font-size:24px"><a href="https://www.cs.cmu.edu/~dpathak/" target="_blank">Deepak Pathak</a></span></center>
+          <center><span style="font-size:20px">CMU, FAIR</span></center>
+          </div>
+      </div>
+      <!-- <table align=center width=600px style="padding-top:0px;padding-bottom:0px">
+          <tr>
+            <td align=center width=600px><center><span style="font-size:15px">* equal contribution</span></center></td>
+          <tr/>
+      </table> -->
+      <center><span style="font-size:24px;"><a href='https://icml.cc/Conferences/2020/PosterSchedule'>ICML 2020</a></span></center>
+
+      <div class="table-like" style="justify-content:space-evenly;max-width:700px;margin:auto;padding:5px">
+        <div><center><span style="font-size:24px"><a href="https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf">[Paper]</a></span></center></div>
+        <div><center><span style="font-size:24px"><a href='https://github.com/huangwl18/modular-rl'>[GitHub Code]</a></span></center> </div>
+
+        <div><center><span style="font-size:24px"><a href="https://youtu.be/9YiZZ_8guq8" target="_blank">[Long Talk]</a></span></center> </div>
+      </div>
+
+      <center>
+      <iframe style="border: 3px solid #EEE;" width="768" height="432" max-width="100%" src="https://www.youtube.com/embed/9YiZZ_8guq8?rel=0" frameborder="0" allowfullscreen></iframe></center>
+      <br>
+
+      <div style="width:800px; margin:0 auto; text-align=right;">
+        Reinforcement learning is typically concerned with learning control policies tailored to a particular agent. We investigate whether there exists a single policy that generalizes to controlling a wide variety of agent morphologies -- ones in which even dimensionality of state and action spaces changes. Such a policy would distill general and modular sensorimotor patterns that can be applied to control arbitrary agents. We propose a policy expressed as a collection of identical modular neural networks for each of the agent's actuators. Every module is only responsible for controlling its own actuator and receives information from its local sensors. In addition, messages are passed between modules, propagating information between distant modules. A single modular policy can successfully generate locomotion behaviors for over 20 planar agents with different skeletal structures such as monopod hoppers, quadrupeds, bipeds, and generalize to variants not seen during training -- a process that would normally require training and manual hyperparameter tuning for each morphology. We observe a wide variety of drastically diverse locomotion styles across morphologies as well as centralized coordination emerging via message passing between decentralized modules purely from the reinforcement learning objective.
+      </div>
+      <br><hr>
+
+      <center><h1>Shared Modular Policies</h1></center>
+      <div style="width:800px; margin:0 auto; text-align=right">
+        This work takes a step beyond the laborious training process of the conventional single-agent RL policy by tackling the possibility of learning general-purpose controllers for diverse robotic systems. Our approach leverages the compositional graph neural networks and trains a single policy for a wide variety of agents which can then generalize to unseen agent shapes at test-time without any further training.
+      </div>
+      <center><a href="resources/teaser.gif"><img src = "resources/teaser.gif" width="600px" ></img></a><br></center>
+      <hr>
+
+
+      <center><h1>Overview of the Algorithm</h1></center>
+      <div style="width:800px; margin:0 auto; text-align=right">
+        Our method expresses agents as collections of modular components that use a shared control policy. Multiple agent controllers (left) are trained simultaneously with locally communicating modules with shared parameters (center). These modules learn to pass messages to local neighbors (right).
+      </div>
+      <center><a href="resources/method.png"><img src = "resources/method.png" width="800px"></img></a><br></center>
+      <br/><hr>
+
+
+            <center id="sourceCode"><h1>Source Code</h1></center>
+            <div style="width:650px; margin:0 auto; text-align=right">
+            We have released our implementation in PyTorch on the github page. Try our code!
+            </div>
+            <table align=center width=600px>
+              <tr>
+                <!-- <p style="margin-top:4px;"></p> -->
+                <td width=600px align=center>
+                  <center><span style="font-size:28px"><a href='https://github.com/huangwl18/modular-rl'>[GitHub]</a></span></center>
+                </td>
+              </tr>
+            </table>
+            <br><hr>
+
+              <center><h1>Paper and Bibtex</h1></center>
+              <table align=center width=850px>
+              <tr>
+              <td width="30%" align=left>
+              <!-- <p style="margin-top:4px;"></p> -->
+              <a href="https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf"><img style="height:150px" src="resources/thumbnail.jpg"/></a>
+              <center>
+              <span style="font-size:20pt"><a href="https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf">[Paper]</a>
+              <span style="font-size:20pt"><a href="https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf">[ArXiv]</a>
+              <!-- <span style="font-size:20pt"><a href="resources/slides.pdf">[Slides]</a></span>
+              <span style="font-size:20pt"><a href="resources/poster.pdf">[Poster]</a></span> -->
+              </center>
+              </td>
+              <td width="6%" align=center>
+              </td>
+              <td width="64%" align=left>
+              <!-- <p style="margin-top:4px;"></p> -->
+              <p style="text-align:left;"><b><span style="font-size:20pt">Citation</span></b><br/><span style="font-size:6px;">&nbsp;<br/></span> <span style="font-size:17pt">Wenlong Huang, Igor Mordatch, Deepak Pathak. <b>One Policy to Control Them All: Shared Modular Policies for Agent-Agnostic Control.</b> ICML 2020.<br/></span></p>
+              <!-- <p style="margin-top:20px;"></p> -->
+              <span style="font-size:20pt"><a shape="rect" href="javascript:togglebib('modularrl2020_bib')" class="togglebib">[Bibtex]</a></span>
+              </td>
+              </tr>
+              <tr>
+              <td width="30%" align=left>
+              </td>
+              <td width="6%" align=center>
+              </td>
+              <td width="64%" align=left>
+                <div class="paper" id="modularrl2020_bib">
+<pre xml:space="preserve">
+@inproceedings{huang2020smp,
+    title = {One Policy to Control
+    Them All: Shared Modular Policies
+    for Agent-Agnostic Control},
+    author = {Wenlong Huang and Igor Mordatch
+    and Deepak Pathak},
+    Booktitle = {ICML},
+    year = {2020}
+}
+}</pre>
+                </div>
+                </td>
+                </tr>
+            </table>
+          <br><hr>
+      </table>
+
+<script xml:space="preserve" language="JavaScript">
+hideallbibs();
+</script>
+</div>
+</body>
+</html>
