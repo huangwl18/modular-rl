@@ -1,6 +1,6 @@
 ## One Policy to Control Them All:<br/>Shared Modular Policies for Agent-Agnostic Control ##
 ### ICML 2020
-#### [[Project Page]](https://huangwl18.github.io/modular-rl/) [[Demo Video]](https://youtu.be/9YiZZ_8guq8) [[Paper]](https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf)
+#### [[Project Page]](https://huangwl18.github.io/modular-rl/) [[Paper]](https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf) [[Demo Video]](https://youtu.be/9YiZZ_8guq8) [[Long Oral Talk]](https://youtu.be/gEeQ0nzalzo)
 
 [Wenlong Huang](https://wenlong.page)<sup>1</sup>, [Igor Mordatch](https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en)<sup>2</sup>, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/)<sup>3 4</sup>
 
