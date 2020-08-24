@@ -8,8 +8,9 @@
 
 <img src="images/teaser.gif" width="700">
 
-This is a PyTorch-based implementation of our [Shared Modular Policies](https://huangwl18.github.io/modular-rl/). We take a step beyond the laborious training process of the conventional single-agent RL policy by tackling the possibility of learning general-purpose controllers for diverse robotic systems. Our approach trains a single policy for a wide variety of agents which can then generalize to unseen agent shapes at test-time without any further training. If you find this work useful in your research, please cite:
-If you find this work useful in your research, please cite:
+This is a PyTorch-based implementation of our [Shared Modular Policies](https://huangwl18.github.io/modular-rl/). We take a step beyond the laborious training process of the conventional single-agent RL policy by tackling the possibility of learning general-purpose controllers for diverse robotic systems. Our approach trains a single policy for a wide variety of agents which can then generalize to unseen agent shapes at test-time without any further training.
+
+If you find this work useful in your research, please cite using the following BibTeX:
 
     @inproceedings{huang2020smp,
       Author = {Huang, Wenlong and
