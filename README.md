@@ -190,6 +190,16 @@ python visualize.py --expID 001 --td --bu --morphologies walker_7_main
 
 Note that each walker agent has an identical instance of itself called ``flipped``, for which SMP always flips the torso message passed to both legs (e.g. the message that is passed to the left leg in the ``main`` instance is now passed the right leg).
 
+For the results reported in the paper, the following agents are in the held-out set for the corresponding experiments:
+
+- Walker++: walker_5_main, walker_6_flipped
+- Humanoid++: humanoid_2d_7_right_arm, humanoid_2d_7_lower_arms
+- Cheetah++: cheetah_4_front, cheetah_5_balanced, cheetah_6_front
+- Walker-Hopper++: walker_5_main, walker_6_flipped, hopper_3
+- Walker-Hopper-Humanoid++: walker_5_main, walker_6_flipped, hopper_3, humanoid_2d_7_right_arm, humanoid_2d_7_lower_arms
+
+All other agents in the corresponding experiments are used for training.
+
 ## Acknowledgement
 The TD3 code is based on this [open-source implementation](https://github.com/sfujim/TD3). The code for Dynamic Graph Neural Networks is adapted from [Modular Assemblies (Pathak*, Lu* et al., NeurIPS 2019)](https://pathak22.github.io/modular-assemblies/).
 
