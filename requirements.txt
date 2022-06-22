@@ -24,7 +24,7 @@ lockfile==0.12.2
 Markdown==3.1.1
 matplotlib==3.1.1
 mujoco-py==2.0.2.4
-numpy==1.16.4
+numpy==1.22.0
 nvidia-ml-py3==7.352.0
 opencv-python==4.1.0.25
 pillow>=6.2.2
