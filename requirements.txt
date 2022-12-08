@@ -1,7 +1,7 @@
 absl-py==0.7.1
 astor==0.8.0
 blessings==1.7
-certifi==2019.6.16
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 cloudpickle==1.2.1
